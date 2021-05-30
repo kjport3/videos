@@ -9,7 +9,7 @@ const App = () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
 
   useEffect(() => {
-    onTermSubmit('React Hooks');
+    onTermSubmit('ReactJS');
   }, []);
 
   const onTermSubmit = async (term) => {
