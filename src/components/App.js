@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
 import SearchBar from './SearchBar';
 import youtube from '../apis/youtube';
@@ -45,3 +46,19 @@ const App = () => {
 };
 
 export default App;
+=======
+import React from 'react';
+import SearchBar from './SearchBar';
+
+class App extends React.Component {
+    render() {
+        return (
+            <div className="ui container">
+                <SearchBar />
+            </div>
+        );
+    }
+}
+
+export default App;
+>>>>>>> 401972057bad319c0137ae439f007d2983ba2daf

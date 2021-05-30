@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "videos-hooks",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,18 @@
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.1"
+=======
+  "name": "videos",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+>>>>>>> 401972057bad319c0137ae439f007d2983ba2daf
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,10 +32,14 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
+<<<<<<< HEAD
     "extends": [
       "react-app",
       "react-app/jest"
     ]
+=======
+    "extends": "react-app"
+>>>>>>> 401972057bad319c0137ae439f007d2983ba2daf
   },
   "browserslist": {
     "production": [
